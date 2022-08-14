@@ -1,0 +1,19 @@
+.btn {
+  padding: 15px 25px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+
+  &.primary {
+    background-color: $btn-primary;
+    &:hover {
+      background-color: rgba($btn-primary, .8);;
+    }
+  }
+  &.btn-link {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
